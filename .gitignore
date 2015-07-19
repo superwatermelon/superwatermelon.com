@@ -1,0 +1,4 @@
+.sass-cache/
+coverage/
+node_modules/
+out/

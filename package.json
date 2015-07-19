@@ -1,0 +1,31 @@
+{
+  "name": "superwatermelon.com",
+  "version": "0.1.0",
+  "description": "The site for superwatermelon.com",
+  "main": "server.js",
+  "scripts": {
+    "bundler": "bundle install",
+    "features": "bundle exec cucumber",
+    "preinstall": "npm run bundler",
+    "coverage": "istanbul cover _mocha",
+    "test": "mocha && npm run features",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superwatermelon/superwatermelon.com"
+  },
+  "author": "Superwatermelon Limited <coders@superwatermelon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superwatermelon/superwatermelon.com/issues"
+  },
+  "homepage": "https://github.com/superwatermelon/superwatermelon.com",
+  "dependencies": {
+    "express": "^4.13.0",
+    "js-yaml": "^3.3.1",
+    "marked": "^0.3.3",
+    "mustache": "^2.1.2",
+    "piddly": "^0.1.0"
+  }
+}
